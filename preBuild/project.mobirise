@@ -91,7 +91,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
