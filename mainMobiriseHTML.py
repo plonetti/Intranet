@@ -1,7 +1,13 @@
+"""
+- 
+"""
 import os 
+import shutil
 from bs4 import BeautifulSoup
 dirFrom='prebuild'
 dirTo='build'
+dirFromImages='prebuild/assets/images'
+dirToImages='build/assets/images'
 for filename in os.listdir(dirFrom):
     if filename.endswith(".html"):
         file_path = os.path.join(dirFrom, filename)
@@ -21,3 +27,8 @@ for filename in os.listdir(dirFrom):
         #print(soup.prettify())
         with open(file_to, "w", encoding="utf8") as f:
             f.write(soup.prettify())
+
+for filename in os.listdir(dirFromImages):
+    file_path_img = os.path.join(dirFromImages, filename)
+    file_to_img = os.path.join(dirToImages, filename)
+    shutil.copy(file_path_img, file_to_img)
