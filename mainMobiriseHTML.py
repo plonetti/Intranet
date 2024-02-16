@@ -1,5 +1,10 @@
 """
-- 
+- utilizzo dei packages BeautifulSoup e shutil
+- per ogni file html presente nela cartella preBuild
+  viene rimosso il tag section con una classe specifica
+- il file ripulito viene poi copiato nella cartella build
+- per ogni file immagine presente nella cartella prebuild/assets/images
+  viene effettuata una copia nella rispettiva cartella build/assets/images
 """
 import os 
 import shutil
@@ -25,6 +30,8 @@ for filename in os.listdir(dirFrom):
 
         # Print the modified HTML
         #print(soup.prettify())
+
+        # Write a copy of the modified HTML
         with open(file_to, "w", encoding="utf8") as f:
             f.write(soup.prettify())
 
