@@ -94,7 +94,7 @@
     "usedWebp": false,
     "publishType": "local",
     "mbrsite": "mbrsite://%7B%22id%22%3A356745%2C%22domain%22%3A%22aby42l8adw.mobirisesite.com%22%7D",
-    "publishPath": "@PROJECT_PATH@"
+    "publishPath": "file:///C:/Users/plonetti/Documents/GitHub/intranet/build"
   },
   "pages": {
     "index.html": {
