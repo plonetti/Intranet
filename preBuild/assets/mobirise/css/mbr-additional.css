@@ -2192,7 +2192,7 @@ a {
 .cid-u4xGuTGxjQ .item-img {
   width: 100%;
   height: 100%;
-  height: 300px;
+  height: 200px;
   object-fit: cover;
 }
 .cid-u4xGuTGxjQ .item:focus,
@@ -2237,6 +2237,17 @@ a {
 .cid-u4xGuTGxjQ .item-subtitle {
   text-align: left;
   color: #bbbbbb;
+}
+.cid-u4CZvJHoGw {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-u4CZvJHoGw .line {
+  background-color: #6592e6;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
 }
 .cid-trAHHcWJO0 {
   padding-top: 30px;
