@@ -1,0 +1,30 @@
+ 
+     h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        color: #555;
+        margin: 10px 0;
+      }
+
+    label {
+        display: block;
+        margin: 10px 0 5px;
+        text-align: left;
+      }
+
+      input {
+        width: calc(100% - 20px);
+        padding: 10px;
+        margin: 5px 0 20px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+    
+
+    
+  
