@@ -13,6 +13,7 @@ dirFrom='prebuild'
 dirTo='build'
 dirFromImages='prebuild/assets/images'
 dirToImages='build/assets/images'
+conta=0
 for filename in os.listdir(dirFrom):
     if filename.endswith(".html"):
         file_path = os.path.join(dirFrom, filename)
@@ -26,6 +27,9 @@ for filename in os.listdir(dirFrom):
 
         # Find the element to remove by its tag and remove it
         element_to_remove = soup.find('section', {'class': 'display-7'})
+        conta=conta+1
+        #element_to_remove = soup.find('section class="display-7"')
+        
         element_to_remove.extract()
 
         # Print the modified HTML
@@ -34,7 +38,7 @@ for filename in os.listdir(dirFrom):
         # Write a copy of the modified HTML
         with open(file_to, "w", encoding="utf8") as f:
             f.write(soup.prettify())
-
+print(conta)
 for filename in os.listdir(dirFromImages):
     file_path_img = os.path.join(dirFromImages, filename)
     file_to_img = os.path.join(dirToImages, filename)
