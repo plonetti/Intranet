@@ -91,7 +91,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Docente/Documents/GitHub/intranet/build"
   },
   "pages": {
     "index.html": {

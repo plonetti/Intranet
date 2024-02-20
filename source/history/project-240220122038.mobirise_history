@@ -83,7 +83,7 @@
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/paciolo-dannunzio-3-128x125.png",
-    "mbrsiteDomain": "fsvlkav5cb",
+    "mbrsiteDomain": "bypn3lmykj",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -91,7 +91,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "usedWebp": false
+    "usedWebp": false,
+    "publishType": "local",
+    "publishPath": "file:///C:/Users/Docente/Documents/GitHub/intranet/preBuild"
   },
   "pages": {
     "index.html": {
