@@ -79,7 +79,7 @@
       }
     ],
     "uniqCompNum": 264,
-    "versionPublish": "5.9.17",
+    "versionPublish": "5.9.13",
     "imageResize": true,
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/paciolo-dannunzio-3-128x125.png",
