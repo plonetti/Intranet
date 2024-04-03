@@ -9,14 +9,10 @@
 import os 
 import shutil
 from bs4 import BeautifulSoup
-"""dirFrom='prebuild'
-dirTo='build'
-dirFromImages='prebuild/assets/images'
-dirToImages='build/assets/images' """
-dirFrom='simulImpresaFrom'
+dirFrom='simulImpresa'
 dirTo='simulImpresaTo'
-dirFromImages='simulImpresaFrom/assets/images'
-dirToImages='simulImpresaTo/assets/images'
+dirFromImages='../simulImpresa/assets/images'
+dirToImages='../simulImpresaTo/assets/images'
 conta=0
 for filename in os.listdir(dirFrom):
     if filename.endswith(".html"):
